@@ -1,7 +1,7 @@
 {
   "name": "ibdb",
   "version": "1.0.0",
-  "description": "A website where one can see a book global rating like imdb",
+  "description": "A website where one can see a book's global rating like imdb",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,6 +20,7 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.0",
     "bootstrap": "^5.2.1",
+    "buffer": "^6.0.3",
     "dotenv": "^16.0.2",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
@@ -29,6 +30,6 @@
     "mongoose": "^6.6.1",
     "nodemailer": "^6.8.0",
     "nodemon": "^2.0.20",
-    "validator": "^13.7.0"
+    "validator": "^13.9.0"
   }
 }
